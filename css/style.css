@@ -208,7 +208,6 @@ section{
 #features .row{
     padding-bottom: 100px;
     border-bottom: 1px solid #121415;
-
 }
 
 #features .heading h4{
@@ -225,14 +224,14 @@ section{
     color: var(--main_color);
     line-height: 72px;
     margin-top: 15px;
+    text-align: start;
 }
 #features .single_card{
     width: 100%;
     height: 330px;
     padding: 50px;
-    background: linear-gradient(to right, #1E2024 100%, #23272B 100%);
-    box-shadow: rgba(182, 161, 161, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 10px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     transition: ease-in-out .3s;
     margin-top: 50px;
 }
@@ -272,16 +271,454 @@ section{
     visibility: visible;
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* =========== features part end ================== */
+/* =========== portfolio part start ================== */
+
+#portfolio {
+    margin-bottom: 100px;
+}
+ .heading p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--brand_color);
+    line-height: 14px;
+    text-align: center;
+}
+ .heading h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 72px;
+    margin-top: 15px;
+    text-align: center;
+}
+#portfolio .row{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #121415;
+}
+#portfolio .single_card{
+    width: 100%;
+    height: 451px;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    margin-top: 50px;
+}
+#portfolio .img{
+    max-width: 355px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#portfolio .img img{
+    width: 100%;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+}
+#portfolio .single_card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22.5px;
+    margin-bottom: 15.7px;
+}
+#portfolio .single_card .top h4{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    line-height: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#portfolio .single_card .top h5{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    line-height: 19.5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#portfolio .single_card .top h5 span{
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+#portfolio .single_card .top h5 span:hover{
+    color: var(--brand_color);
+}
+#portfolio .single_card h3{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 34px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+#portfolio .single_card h3:hover{
+    color: var(--brand_color);
+}
+#portfolio .single_card h3 span .arrow{
+    font-size: 20px;
+    color: var(--brand_color);
+    transform: rotate(-45deg) translateX(-25px);
+    transition: ease-in-out .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+#portfolio .single_card h3:hover span .arrow{
+    transform: translateX(0) rotate(-45deg);
+    visibility: visible;
+    opacity: 1;
+}
+
+#portfolio .single_card:hover {
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+}
+#portfolio .single_card:hover img{
+    transform: scale(1.09);
+}
+
+/* =========== portfolio part end ================== */
+/* =========== resume part start ================== */
+#resume{
+
+}
+#resume .row{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #121415;
+}
+#resume .buttons{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+#resume .buttons button{
+    width: 25%;
+    border: none;
+    padding: 31px 0;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    color: var(--main_color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+    margin-top: 50px;
+}
+#resume .buttons button:first-child{
+    color: var(--brand_color);
+}
+#resume .buttons button:hover{
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.015));
+}
+#resume .cards{
+    margin-top: 40px;
+}
+#resume .text p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    line-height: 21px;
+    margin-bottom: 3px;
+}
+#resume .text h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 62px;
+}
+#resume .single_card{
+    padding: 45px 40px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition: ease-in-out .3s;
+    border-radius: 15px;
+}
+#resume .single_card:hover{
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+}
+#resume .single_card h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    line-height: 39px;
+}
+#resume .single_card .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #1A1D23;
+}
+#resume .single_card .middle h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #7C838E;
+}
+#resume .single_card .middle h6{
+    padding: 8px 15px;
+    background-color: rgba(18, 20, 21, 0.621);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    line-height: 36px;
+}
+#resume .single_card p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #878E99;
+    line-height: 28px;
+}
+
+
+#resume .single_card1{
+    margin-top: 50px;
+    padding-right: 20px;
+}
+#resume .single_card1 h5{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #c3cedd;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* ======== design part start ================ */
+#resume .photoshot{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .photoshot::after{
+    content: "100%";
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .photoshot1{
+    width: 100%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+
+#resume .figma{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .figma::after{
+    content: "95%";
+    position: absolute;
+    bottom: 5px;
+    right: 5%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .figma1{
+    width: 95%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+
+#resume .adobe{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .adobe::after{
+    content: "60%";
+    position: absolute;
+    bottom: 5px;
+    right: 40%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .adobe1{
+    width: 60%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+#resume .illustrator{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .illustrator::after{
+    content: "70%";
+    position: absolute;
+    bottom: 5px;
+    right: 30%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .illustrator1{
+    width: 70%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+#resume .design{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .design::after{
+    content: "90%";
+    position: absolute;
+    bottom: 5px;
+    right: 10%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .design1{
+    width: 90%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+/* ======== development part start ========== */
+
+#resume .html{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .html::after{
+    content: "85%";
+    position: absolute;
+    bottom: 5px;
+    right: 15%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .html1{
+    width: 85%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+
+#resume .css{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .css::after{
+    content: "80%";
+    position: absolute;
+    bottom: 5px;
+    right: 20%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .css1{
+    width: 80%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+
+#resume .javascript{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .javascript::after{
+    content: "90%";
+    position: absolute;
+    bottom: 5px;
+    right: 10%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .javascript1{
+    width: 90%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+#resume .software{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .software::after{
+    content: "75%";
+    position: absolute;
+    bottom: 5px;
+    right: 25%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .software1{
+    width: 75%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+#resume .plugin{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+#resume .plugin::after{
+    content: "70%";
+    position: absolute;
+    bottom: 5px;
+    right: 30%;
+    color: var(--brand_color);
+}
+#resume .single_card1 .cards .plugin1{
+    width: 70%;
+    height: 4px;
+    background-color: var(--brand_color);
+}
+
+#resume .single_card1 .cards{
+    margin-top: 30px;
+}
+#resume .pro_row{
+    display: none;
+}
+#resume .experience_row{
+    display: none;
+}
+#resume .interview_row{
+    display: none;
+}
+
+
+/* =========== resume part end ================== */

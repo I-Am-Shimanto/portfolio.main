@@ -65,6 +65,23 @@
     line-height: 24px;
 }
     /* ========= features part end ======= */
+    /* ========= portfolio part start ======= */
+    .heading h2 {
+        font-size: 45px;
+    }
+
+    /* ========= portfolio part end ======= */
+    /* ========= resume part start ======= */
+    #resume .buttons button {
+        padding: 21px 0;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    #resume .text h3 {
+        font-size: 30px;
+        line-height: 52px;
+    }
+    /* ========= resume part end ======= */
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .navbar {
@@ -127,6 +144,14 @@
     line-height: 24px;
 }
     /* ========= features part end ======= */
+     /* ========= resume part start ======= */
+     #resume .buttons button {
+        padding: 21px 0;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    /* ========= resume part end ======= */
+    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
