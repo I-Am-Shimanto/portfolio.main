@@ -1,0 +1,198 @@
+/* =========== all links part ================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* =========== all links part ================ */
+
+/* =========== common css part start =================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    background: linear-gradient(to right, #1E2024 100%, #23272B 100%);
+}
+:root{
+    --poppins : "Poppins", sans-serif;
+    --montserrat : "Montserrat", sans-serif;
+    --main_color : #C4CFDE;
+    --brand_color : #FF014F;
+}
+
+/* =========== common css part start ============== */
+
+/* =========== navbar part start ================== */
+.navbar{
+    padding: 26px 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid rgba(0, 0, 0, 0.592);
+}
+.logo h4{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.25px;
+}
+
+.navbar ul{
+    align-items: center;
+    gap: 20px;
+}
+.navbar ul li a{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 19.5px;
+    transition: ease-in-out .3s;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+.navbar ul li button{
+    width: fit-content;
+    padding: 18.4px 19px;
+    background: linear-gradient(to right, #1E2024 100%, #23272B 100%);
+    color: var(--brand_color);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+}
+.navbar ul li button:hover{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.086) 100%, rgba(0, 0, 0, 0.145) 100%);
+    transform: translateY(-7px);
+}
+.navbar-toggler{
+    color: rgba(255, 255, 255, 0.33);
+    background-color: black;
+}
+
+/* =========== navbar part start ================== */
+/* =========== banner part start ================== */
+
+#banner{
+    padding-top: 235px;
+    padding-bottom: 100px;
+}
+#banner .row{
+    border-bottom: 1px solid #121415;
+}
+#banner h4{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 21px;
+}
+#banner h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: white;
+    line-height: 75px;
+    margin: 20px 0 13px;
+}
+#banner h1 span{
+    color: var(--brand_color);
+}
+#banner h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: white;
+    line-height: 57.6px;
+}
+#banner p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    line-height: 30px;
+    margin: 25px 0 150px;
+}
+#banner .img{
+    position: relative;
+}
+#banner img{
+    width: 526px;
+    transform: translateY(-100px);
+    margin-left: 100px;
+    /* z-index: 200; */
+}
+#banner .img .bg-banner-img{
+    width: 588px;
+    height: 561px;
+    position: absolute;
+    top: 150px;
+    left: -30px;
+}
+#banner .main_img{
+    opacity: 0.8;
+}
+#banner .botton_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner .icon {
+    display: flex;
+    gap: 24px;
+}
+#banner .left_side h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#banner .icon a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: linear-gradient(to right, #1E2024 100%, #23272B 100%);
+    box-shadow: rgba(182, 161, 161, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: ease-in-out .3s;
+    color: var(--main_color);
+    border-radius: 6px;
+}
+#banner .icon a:hover{
+    transform: translateY(-3px);
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+    color: white;
+}
+#banner .invision{
+    background: linear-gradient(to right, #1E2024 100%, #23272B 100%);
+    /* color: var(--brand_color); */
+}
+#banner .diamond{
+    color: rgb(229, 234, 91);
+}
+.figma{
+    color: rgb(219, 136, 187);
+}
+
+
+/* =========== banner part end ================== */
