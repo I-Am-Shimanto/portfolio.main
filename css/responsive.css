@@ -1,0 +1,65 @@
+@media (max-width: 575.98px) { 
+    /* ========= navbar part start ======= */
+    .navbar {
+        padding: 15px 20px;
+    }
+    .navbar .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar .logo h4{
+        font-size: 14px;
+    }
+    #banner .row{
+        flex-direction: column-reverse;
+    }
+    
+    /* ========= navbar part end ======= */
+    /* ========= banner part start ======= */
+    #banner {
+        padding-top: 150px;
+    }
+    #banner .row{
+        padding-bottom: 100px;
+    }
+    #banner img{
+        width: 300px;
+        margin-left: 30px;
+    }
+    #banner .img .bg-banner-img{
+        width: 100%;
+        height: 250px;
+    }
+    #banner .main_img{
+        width: 100%;
+        padding-right: 60px;
+        transform: translateY(-65px);
+    }
+    #banner h1{
+        font-size: 32px;
+        line-height: 55px;
+    }
+    #banner h2{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    #banner .botton_card{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    /* ========= banner part end ======= */
+    /* ========= features part start ======= */
+    #features .heading{
+        text-align: center;
+    }
+    #features .heading h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+#features .single_card p{
+    font-size: 14px;
+    line-height: 24px;
+}
+    /* ========= features part end ======= */
+}
