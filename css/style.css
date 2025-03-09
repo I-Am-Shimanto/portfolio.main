@@ -387,7 +387,7 @@ section{
 /* =========== portfolio part end ================== */
 /* =========== resume part start ================== */
 #resume{
-
+    padding-bottom: 100px;
 }
 #resume .row{
     padding-bottom: 100px;
