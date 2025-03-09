@@ -139,13 +139,13 @@ section{
     position: relative;
 }
 #banner img{
-    max-width: 526px;
+    width: 526px;
     transform: translateY(-100px);
     margin-left: 100px;
     /* z-index: 200; */
 }
 #banner .img .bg-banner-img{
-    max-width: 588px;
+    width: 588px;
     height: 561px;
     position: absolute;
     top: 150px;
