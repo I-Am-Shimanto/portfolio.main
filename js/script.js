@@ -65,3 +65,12 @@ interview.addEventListener("click", ()=>{
     professional.style = "color : #C4CFDE;"
 
 })
+
+
+// ============== testimonial part 
+
+
+$('.main_card').slick({
+    nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></button>',
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>',
+});

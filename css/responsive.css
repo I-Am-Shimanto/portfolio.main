@@ -85,6 +85,24 @@
         line-height: 52px;
     }
     /* ========= resume part end ======= */
+    /* ============ testimonial part start ============ */
+    #testimonial .main_card .single_card {
+        padding: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #testimonial .main_card .card_details img{
+        display: none;
+    }
+    .slick-next {
+        top: -40px;
+    } 
+    
+    
+    .slick-prev {
+        top: -40px;
+    }
+    /* ============ testimonial part end ============ */
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .navbar {

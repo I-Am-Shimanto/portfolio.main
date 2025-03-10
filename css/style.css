@@ -722,3 +722,140 @@ section{
 
 
 /* =========== resume part end ================== */
+/* =========== testimonial part start ================== */
+#testimonial{
+
+}
+#testimonial .heading{
+    margin-bottom: 50px;
+}
+#testimonial .main_card .single_card{
+    display: flex;
+    gap: 40px;
+    padding: 0 100px;
+}
+#testimonial .main_card .card_info{
+    margin-right: 40px;
+    width: 395px;
+    padding: 30px 30px 40px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+#testimonial .main_card .card_info .img img{
+    border-radius: 10px;
+}
+#testimonial .main_card .card_info .text{
+     padding-top: 33px;
+}
+#testimonial .main_card .card_info h4{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+#testimonial .main_card .card_info h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 34px;
+    margin: 13.8px 0 7.6px;
+}
+
+#testimonial .main_card .card_info h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #878E99;
+    line-height: 21px;
+}
+#testimonial .main_card .card_details .details_text{
+    width: 660px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+#testimonial .main_card .card_details img{
+    width: 130px;
+    height: 130px;
+}
+#testimonial .main_card .card_details h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 30px;
+}
+#testimonial .main_card .card_details .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #1A1D23;
+}
+#testimonial .main_card .card_details h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #7C838E;
+    line-height: 24px;
+}
+#testimonial .main_card .card_details .icons{
+    padding: 17px 15px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 6px;
+}
+#testimonial .main_card .card_details .icons .star{
+    font-size: 10px;
+    color: #FFB433;
+}
+#testimonial .main_card .card_details p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #878E99;
+    line-height: 30px;
+}
+.slick-next , .slick-prev{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 6px;
+    border: none;
+    color: var(--main_color);
+    transition: ease-in-out 0.3s;
+}
+.slick-next:hover , .slick-prev:hover{
+    color: var(--brand_color);
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+}
+.slick-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 22;
+} 
+
+
+.slick-prev {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    z-index: 22;
+}
+
+
+
+
+
+
+
+
+/* =========== testimonial part end ================== */
