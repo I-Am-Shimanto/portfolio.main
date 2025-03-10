@@ -514,11 +514,30 @@ section{
     bottom: 5px;
     right: 0;
     color: var(--brand_color);
+    animation: photoshot1 2s linear alternate;
 }
+@keyframes photoshot1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+
 #resume .single_card1 .cards .photoshot1{
     width: 100%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: photoshot 2s linear alternate;
+}
+@keyframes photoshot {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }
 
 #resume .figma{
@@ -535,13 +554,31 @@ section{
     bottom: 5px;
     right: 5%;
     color: var(--brand_color);
+    animation: figma1 2s linear alternate;
 }
+@keyframes figma1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 5%;
+    }
+}
+
 #resume .single_card1 .cards .figma1{
     width: 95%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: figma 2s linear alternate;
 }
-
+@keyframes figma {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
 #resume .adobe{
     width: 100%;
     height: 4px;
@@ -556,11 +593,29 @@ section{
     bottom: 5px;
     right: 40%;
     color: var(--brand_color);
+    animation: adobe1 2s linear alternate;
+}
+@keyframes adobe1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 40%;
+    }
 }
 #resume .single_card1 .cards .adobe1{
     width: 60%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: adobe 2s linear alternate;
+}
+@keyframes adobe {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
 }
 #resume .illustrator{
     width: 100%;
@@ -576,12 +631,32 @@ section{
     bottom: 5px;
     right: 30%;
     color: var(--brand_color);
+    animation: illustrator1 2s linear alternate;
 }
+@keyframes illustrator1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 30%;
+    }
+}
+
 #resume .single_card1 .cards .illustrator1{
     width: 70%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: illustrator 2s linear alternate;
 }
+@keyframes illustrator {
+    0%{
+        width: 00%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
 #resume .design{
     width: 100%;
     height: 4px;
@@ -596,11 +671,30 @@ section{
     bottom: 5px;
     right: 10%;
     color: var(--brand_color);
+    animation: design1 2s linear alternate;
 }
+@keyframes design1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 10%;
+    }
+}
+
 #resume .single_card1 .cards .design1{
     width: 90%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: design 2s linear alternate;
+}
+@keyframes design {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
 }
 /* ======== development part start ========== */
 
@@ -618,13 +712,31 @@ section{
     bottom: 5px;
     right: 15%;
     color: var(--brand_color);
+    animation: html1 2s linear alternate;
 }
+@keyframes html1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 15%;
+    }
+}
+
 #resume .single_card1 .cards .html1{
     width: 85%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: html 2s linear alternate;
 }
-
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
 #resume .css{
     width: 100%;
     height: 4px;
@@ -639,13 +751,31 @@ section{
     bottom: 5px;
     right: 20%;
     color: var(--brand_color);
+    animation: css1 2s linear alternate;
 }
+@keyframes css1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+
 #resume .single_card1 .cards .css1{
     width: 80%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: css 2s linear alternate;
 }
-
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
 #resume .javascript{
     width: 100%;
     height: 4px;
@@ -660,11 +790,30 @@ section{
     bottom: 5px;
     right: 10%;
     color: var(--brand_color);
+    animation: javascript1 2s linear alternate;
 }
+@keyframes javascript1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 10%;
+    }
+}
+
 #resume .single_card1 .cards .javascript1{
     width: 90%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: javascript 2s linear alternate;
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
 }
 #resume .software{
     width: 100%;
@@ -680,11 +829,30 @@ section{
     bottom: 5px;
     right: 25%;
     color: var(--brand_color);
+    animation: software1 2s linear alternate;
 }
+@keyframes software1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 25%;
+    }
+}
+
 #resume .single_card1 .cards .software1{
     width: 75%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: software 2s linear alternate;
+}
+@keyframes software {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
 }
 #resume .plugin{
     width: 100%;
@@ -700,13 +868,31 @@ section{
     bottom: 5px;
     right: 30%;
     color: var(--brand_color);
+    animation: plugin1 2s linear alternate;
 }
+@keyframes plugin1 {
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 30%;
+    }
+}
+
 #resume .single_card1 .cards .plugin1{
     width: 70%;
     height: 4px;
     background-color: var(--brand_color);
+    animation: plugin 2s linear alternate;
 }
-
+@keyframes plugin {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
 #resume .single_card1 .cards{
     margin-top: 30px;
 }
@@ -859,3 +1045,4 @@ section{
 
 
 /* =========== testimonial part end ================== */
+
