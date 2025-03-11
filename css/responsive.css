@@ -50,6 +50,15 @@
         flex-direction: column;
         gap: 24px;
     }
+    .aa{
+        color: white !important;
+        font-size: 25px;
+    }
+    b {
+        opacity: 0;
+        color: white;
+        font-size: 27px;
+      }
 
     /* ========= banner part end ======= */
     /* ========= features part start ======= */
@@ -149,7 +158,14 @@
         font-size: 30px;
         line-height: 45px;
     }
-
+    .aa{
+        font-size: 38px;
+    }
+    b {
+        opacity: 0;
+        color: white;
+        font-size: 42px;
+      }
 
     /* ========= banner part end ======= */
     /* ========= features part start ======= */

@@ -120,6 +120,67 @@ section{
 #banner h1 span{
     color: var(--brand_color);
 }
+
+.cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+  
+  .cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+  }
+  
+  .cd-words-wrapper b.is-visible {
+    position: relative;
+  }
+  
+ .cd-words-wrapper b {
+    opacity: 0;
+  }
+  
+ .cd-words-wrapper b.is-visible {
+    opacity: 1;
+  }
+.aa{
+    color: white !important;
+    font-size: 50px;
+}
+  .cd-headline.clip span {
+    display: inline-block;
+    padding: 0;
+    
+  }
+ .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  
+.cd-words-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 2px;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-50%);
+  }
+  
+ b {
+    opacity: 0;
+    color: white;
+    font-size: 50px;
+  }
+  
+ b.is-visible {
+    opacity: 1;
+  }
+/* =============== banner sliding text part =============== */
 #banner h2{
     font-size: 48px;
     font-weight: 700;
@@ -909,9 +970,7 @@ section{
 
 /* =========== resume part end ================== */
 /* =========== testimonial part start ================== */
-#testimonial{
 
-}
 #testimonial .heading{
     margin-bottom: 50px;
 }
@@ -1028,21 +1087,12 @@ section{
     right: 0;
     z-index: 22;
 } 
-
-
 .slick-prev {
     position: absolute;
     top: 0;
     right: 80px;
     z-index: 22;
 }
-
-
-
-
-
-
-
 
 /* =========== testimonial part end ================== */
 
