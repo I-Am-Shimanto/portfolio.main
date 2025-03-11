@@ -84,10 +84,15 @@
 
     /* ========= portfolio part end ======= */
     /* ========= resume part start ======= */
+    #resume .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
     #resume .buttons button {
         padding: 21px 0;
-        font-size: 8px;
-        font-weight: 600;
+        width: 100%;
+        margin-top: 10px;
     }
     #resume .text h3 {
         font-size: 30px;
@@ -107,11 +112,26 @@
         top: -40px;
     } 
     
-    
     .slick-prev {
         top: -40px;
     }
+    #testimonial .main_card .card_details .details_text {
+        width: 100%;
+        padding:50px 0px;
+    }
+    #testimonial .main_card .card_details h2 {
+        font-size: 23px;
+    }
+    #testimonial .main_card .card_details .heading {
+        flex-direction: column;
+    }
     /* ============ testimonial part end ============ */
+    /* ============ clients part start ============ */
+    #clients .heading h2 {
+        font-size: 35px;
+    }
+    /* ============ clients part end ============ */
+    
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .navbar {
@@ -191,7 +211,47 @@
         font-weight: 600;
     }
     /* ========= resume part end ======= */
+    /* =========== testimonial part start ========== */
+    #testimonial .main_card .single_card {
+        padding: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #testimonial .main_card .single_card .card_info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #testimonial .main_card .single_card .card_info .text{
+        text-align: center;
+    }
+    #testimonial .main_card .card_details img{
+        display: none;
+    }
+    .slick-next {
+        top: -50px;
+    } 
     
+    .slick-prev {
+        top: -50px;
+    }
+    #testimonial .main_card .card_details .details_text {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    #testimonial .main_card .card_details h2 {
+        text-align: center;
+    }
+    #testimonial .main_card .card_details .heading {
+        flex-direction: column;
+    }
+    /* =========== testimonial part start ========== */
+     /* ============ clients part start ============ */
+     #clients .heading h2 {
+        font-size: 45px;
+    }
+    /* ============ clients part end ============ */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -259,6 +319,43 @@
     line-height: 24px;
 }
     /* ========= features part end ======= */
+     /* =========== testimonial part start ========== */
+     #testimonial .main_card .single_card {
+        padding: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #testimonial .main_card .single_card .card_info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #testimonial .main_card .single_card .card_info .text{
+        text-align: center;
+    }
+    #testimonial .main_card .card_details img{
+        display: none;
+    }
+    .slick-next {
+        top: -50px;
+    } 
+    
+    .slick-prev {
+        top: -50px;
+    }
+    #testimonial .main_card .card_details .details_text {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    #testimonial .main_card .card_details h2 {
+        text-align: center;
+    }
+    #testimonial .main_card .card_details .heading {
+        flex-direction: column;
+    }
+    /* =========== testimonial part start ========== */
+    
 }
 
 
@@ -306,5 +403,55 @@
 }
 
 /* ============== features part start =========== */
+/* =========== testimonial part start ========== */
+#testimonial .main_card .single_card {
+    padding: 0;
+    flex-direction: column;
+    gap: 10px;
+}
+#testimonial .main_card .single_card .card_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#testimonial .main_card .single_card .card_info .text{
+    text-align: center;
+}
+#testimonial .main_card .card_details img{
+    display: none;
+}
+.slick-next {
+    top: -50px;
+} 
+
+.slick-prev {
+    top: -50px;
+}
+#testimonial .main_card .card_details .details_text {
+    width: 100%;
+    padding: 50px 0px;
+}
+#testimonial .main_card .card_details h2 {
+    text-align: center;
+}
+#testimonial .main_card .card_details .heading {
+    flex-direction: column;
+}
+/* =========== testimonial part start ========== */
+
+/* =========== clients part start ========= */
+#clients .single_card {
+    padding: 20px 31px 17.4px;
+    /* height: 100%; */
+}
+/* =========== clients part start ========= */
+
 
  }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #testimonial .main_card .single_card {
+       transform: translateX(-100px);
+    }
+}

@@ -970,14 +970,17 @@ section{
 
 /* =========== resume part end ================== */
 /* =========== testimonial part start ================== */
-
+#testimonial{
+    margin-bottom: 100px;
+}
 #testimonial .heading{
     margin-bottom: 50px;
 }
 #testimonial .main_card .single_card{
     display: flex;
     gap: 40px;
-    padding: 0 100px;
+    padding: 0 100px 100px;
+    border-bottom: 1px solid #121415;
 }
 #testimonial .main_card .card_info{
     margin-right: 40px;
@@ -1095,4 +1098,97 @@ section{
 }
 
 /* =========== testimonial part end ================== */
+/* =========== clients part start ================== */
+ 
+#clients .heading {
+    margin-bottom: 50px;
+    
+}
+#clients .heading p{
+    text-align: start;
+    letter-spacing: 1px;
+} 
+#clients .heading h2{
+    text-align: start;
+} 
+
+#clients .clients_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+#clients .clients_btn button{
+    width: 100%;
+    padding: 32px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    border: none;
+    color: #E4E6EA;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    transition: ease-in-out 0.3s;
+}
+
+#clients .clients_btn button:first-child{
+    color: var(--brand_color);
+}
+#clients .clients_btn button:hover{
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    color: var(--brand_color);
+}
+#clients .single_card{
+    height: 100%;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    text-align: center;
+    padding: 30px 61px 17.4px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+#clients .single_card img{
+    width: 143px;
+    height: 90px;
+}
+
+#clients .single_card:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+#clients .single_card p{
+    width: 267px;
+    height: 1px;
+    background-color: #1A1D23;
+    margin-top: 30px;
+}
+#clients .single_card h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== clients part end ================== */
 
