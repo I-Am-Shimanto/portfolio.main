@@ -1100,7 +1100,7 @@ section{
 /* =========== testimonial part end ================== */
 /* =========== clients part start ================== */
  
-#clients .heading {
+/* #clients .heading {
     margin-bottom: 50px;
     
 }
@@ -1171,24 +1171,6 @@ section{
     color: var(--main_color);
     line-height: 27px;
     margin-top: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 /* =========== clients part end ================== */
 
