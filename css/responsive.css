@@ -131,6 +131,34 @@
         font-size: 35px;
     }
     /* ============ clients part end ============ */
+    /* ============ pricing part start ============ */
+    #pricing .buttons button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #pricing .single_card h3 {
+        font-size: 19px;
+    }
+    #pricing .single_card {
+        padding: 35px 20px 30px;
+    }
+    #pricing .single_card .price h5 {
+        font-size: 20px;
+        padding: 7px 15px;
+    }
+    #pricing .single_card .price {
+        margin: 11px 0 23px;
+    }
+    #pricing .single_card p {
+        font-size: 15px;
+    }
+    #pricing .single_card .facility {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    /* ============ pricing part end ============ */
     
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -252,6 +280,18 @@
         font-size: 45px;
     }
     /* ============ clients part end ============ */
+    /* ============ pricing part start ============ */
+    #pricing .buttons button {
+        padding: 20px;
+        font-size: 16px;
+    }
+    #pricing .single_card .facility p {
+        font-size: 16px;
+    }
+    #pricing .single_card .facility {
+        margin: 40px 0 45px;
+    }
+    /* ============ pricing part end ============ */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -446,6 +486,14 @@
     /* height: 100%; */
 }
 /* =========== clients part start ========= */
+/* =========== pricing part start ========= */
+#pricing .single_card .facility p {
+    font-size: 17px;
+}
+#pricing .single_card .facility {
+    margin: 40px 0 55px;
+}
+/* =========== pricing part end ========= */
 
 
  }

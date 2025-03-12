@@ -68,3 +68,38 @@ $('.main_card').slick({
     prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>',
 });
 
+
+// ============= pricing part 
+const pricingStatic = document.querySelector('.single_card_static')
+const pricingStandard = document.querySelector('.single_card_standard')
+const pricingPremium = document.querySelector('.single_card_premium')
+const static = document.querySelector('.static')
+const standard = document.querySelector('.standard')
+const premium = document.querySelector('.premium')
+
+static.addEventListener('click', ()=>{
+    pricingStatic.style.display = "block"
+    pricingStandard.style.display = "none"
+    pricingPremium.style.display = "none"
+    static.style.color = "#FF014F"
+    standard.style.color = "#F6F6F6"
+    premium.style.color = "#F6F6F6"
+})
+standard.addEventListener('click', ()=>{
+    pricingStandard.style.display = "block"
+    pricingStatic.style.display = "none"
+    pricingPremium.style.display = "none"
+    standard.style.color = "#FF014F"
+    static.style.color = "#F6F6F6"
+    premium.style.color = "#F6F6F6"
+})
+premium.addEventListener('click', ()=>{
+    pricingPremium.style.display = "block"
+    pricingStandard.style.display = "none"
+    pricingStatic.style.display = "none"
+    premium.style.color = "#FF014F"
+    static.style.color = "#F6F6F6"
+    standard.style.color = "#F6F6F6"
+})
+
+
