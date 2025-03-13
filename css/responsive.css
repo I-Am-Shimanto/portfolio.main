@@ -159,6 +159,20 @@
         margin-bottom: 40px;
     }
     /* ============ pricing part end ============ */
+    /* ============ contact part start ============ */
+    #contact .forms{
+        margin: 10px 0 0;
+        padding: 10px;
+    }
+    #contact .top{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #contact .message textarea{
+        height: 150px;
+    }
+    
+    /* ============ contact part end ============ */
     
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -292,6 +306,12 @@
         margin: 40px 0 45px;
     }
     /* ============ pricing part end ============ */
+    /* ============ contact part start ============ */
+    #contact .top{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* ============ contact part end ============ */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -395,6 +415,11 @@
         flex-direction: column;
     }
     /* =========== testimonial part start ========== */
+    /* =========== contact part start ========== */
+    #contact .forms .top input{
+        width: 290px;
+    }
+    /* =========== contact part end ========== */
     
 }
 
@@ -494,6 +519,16 @@
     margin: 40px 0 55px;
 }
 /* =========== pricing part end ========= */
+/* =========== contact part start ========= */
+#contact .top{
+    flex-direction: column;
+    gap: 20px;
+}
+#contact .forms .top input{
+    width: 100%;
+}
+
+/* =========== contact part end ========= */
 
 
  }

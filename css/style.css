@@ -990,8 +990,16 @@ section{
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }
+#testimonial .main_card .card_info .img {
+    overflow: hidden;
+    border-radius: 10px;
+}
 #testimonial .main_card .card_info .img img{
     border-radius: 10px;
+    transition: ease-in-out .3s;
+}
+#testimonial .main_card .card_info:hover img{
+    transform: scale(1.1);
 }
 #testimonial .main_card .card_info .text{
      padding-top: 33px;
@@ -1509,6 +1517,7 @@ section{
 #contact .forms .top {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 #contact .forms .top p{
     font-size: 12px;
@@ -1521,10 +1530,86 @@ section{
 }
 #contact .forms .top input{
     width: 310px;
+    height: 55px;
+    background-color: #191B1E;
+    outline: none;
+    border: none;
+    color: var(--main_color);
+    padding: 0 20px;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
 }
 
-
-
+#contact .emails {
+    margin-top: 20px;
+    text-align: center;
+}
+#contact .emails p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+#contact .emails input{
+    width: 100%;
+    height: 55px;
+    background-color: #191B1E;
+    outline: none;
+    border: none;
+    color: var(--main_color);
+    padding: 0 20px;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+#contact .message {
+    margin-top: 20px;
+    text-align: center;
+}
+#contact .message p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+#contact .message textarea{
+    width: 100%;
+    height: 235px;
+    background-color: #191B1E;
+    outline: none;
+    border: none;
+    color: var(--main_color);
+    padding: 20px;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+#contact form button{
+    width: 100%;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--brand_color);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border: none;
+    margin: 20px 0;
+    transition: ease-in-out .3s;
+}
+#contact form button:hover{
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+    margin-top: 10px;
+}
 
 
 

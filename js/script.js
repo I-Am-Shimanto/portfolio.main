@@ -102,4 +102,52 @@ premium.addEventListener('click', ()=>{
     standard.style.color = "#F6F6F6"
 })
 
+// -========== contact part 
+const inputNumber = document.querySelector('.input_number')
+const inputName = document.querySelector('.input_name')
+const inputEmail = document.querySelector('.input_email')
+const textarea = document.querySelector('.textarea')
+
+
+// ==========
+inputName.addEventListener('click', ()=>{
+    inputName.style.outline = "2px solid #FF014F"
+    inputNumber.style.outline = "none"
+    inputEmail.style.outline = "none"
+    textarea.style.outline = "none"
+})
+inputName.addEventListener('input', ()=>{
+    inputName.style.outline = "none"
+})
+// ============
+inputNumber.addEventListener('click', ()=>{
+    inputNumber.style.outline = "2px solid #FF014F"
+    inputName.style.outline = "none"
+    inputEmail.style.outline = "none"
+    textarea.style.outline = "none"
+})
+inputNumber.addEventListener('input', ()=>{
+    inputNumber.style.outline = "none"
+})
+// ============
+inputEmail.addEventListener('click', ()=>{
+    inputEmail.style.outline = "2px solid #FF014F"
+    inputName.style.outline = "none"
+    inputNumber.style.outline = "none"
+    textarea.style.outline = "none"
+})
+inputEmail.addEventListener('input', ()=>{
+    inputEmail.style.outline = "none"
+})
+
+// ============
+textarea.addEventListener('click', ()=>{
+    textarea.style.outline = "2px solid #FF014F"
+    inputName.style.outline = "none"
+    inputNumber.style.outline = "none"
+    inputEmail.style.outline = "none"
+})
+textarea.addEventListener('input', ()=>{
+    textarea.style.outline = "none"
+})
 
