@@ -1176,6 +1176,13 @@ section{
 /* =========== clients part end ================== */
 /* =========== pricing part start ================== */
 
+#pricing {
+    margin-bottom: 100px;
+}
+#pricing .row{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #121415;;
+}
 #pricing .main_card_pricing{
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
@@ -1297,4 +1304,231 @@ section{
     display: none;
 }
 /* =========== pricing part end ================== */
+
+/* =========== blog part start ============= */
+
+#blog {
+    margin-bottom: 100px;
+}
+
+#blog .row{
+    padding-bottom: 100px;
+    border-bottom: 1px solid #121415;
+}
+#blog .single_card{
+    width: 100%;
+    height: 451px;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    margin-top: 50px;
+}
+#blog .img{
+    max-width: 355px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#blog .img img{
+    width: 100%;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+}
+#blog .single_card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22.5px;
+    margin-bottom: 15.7px;
+}
+#blog .single_card .top h4{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    line-height: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#blog .single_card .top h5{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    line-height: 19.5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#blog .single_card .top h5 span{
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+#blog .single_card .top h5 span:hover{
+    color: var(--brand_color);
+}
+#blog .single_card h3{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    line-height: 34px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+#blog .single_card h3:hover{
+    color: var(--brand_color);
+}
+#blog .single_card h3 span .arrow{
+    font-size: 20px;
+    color: var(--brand_color);
+    transform: rotate(-45deg) translateX(-25px);
+    transition: ease-in-out .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+#blog .single_card h3:hover span .arrow{
+    transform: translateX(0) rotate(-45deg);
+    visibility: visible;
+    opacity: 1;
+}
+
+#blog .single_card:hover {
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+}
+#blog .single_card:hover img{
+    transform: scale(1.09);
+}
+/* =========== blog part end ============= */
+/* =========== contact part start ============ */
+#contact .heading{
+    margin-bottom: 50px;
+}
+#contact .details{
+    padding: 30px;
+    background-color: #212428;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+#contact .details .img {
+    border-radius: 10px;
+}
+#contact .details .img img{
+    width: 100%;
+    border-radius: 10px;
+}
+#contact .details h3{
+    font-size: 29px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #E4E6EA;
+    line-height: 44px;
+    margin: 28px 0 9px;
+}
+#contact .details h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #878E99;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+#contact .details p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    line-height: 30px;
+}
+#contact .details h5{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #878E99;
+    line-height: 27px;
+}
+#contact .details h5 span{
+    transition: all linear .3s;
+    position: relative;
+}
+#contact .details h5 span::after{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: var(--brand_color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all linear .3s;
+}
+#contact .details h5:hover span{
+    color: var(--brand_color);
+}
+#contact .details h5 span:hover::after{
+    width: 100%;
+}
+#contact .find{
+    margin: 40px 0 24px;
+}
+#contact .icon {
+    display: flex;
+    gap: 24px;
+}
+#contact .left_side h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--main_color);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#contact .icon a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: linear-gradient(to right, #1E2024 100%, #23272B 100%);
+    box-shadow: rgba(182, 161, 161, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: ease-in-out .3s;
+    color: var(--main_color);
+    border-radius: 6px;
+}
+#contact .icon a:hover{
+    transform: translateY(-3px);
+    background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
+    color: white;
+}
+
+#contact .forms {
+    padding: 30px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+#contact .forms .top {
+    display: flex;
+    justify-content: space-between;
+}
+#contact .forms .top p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--main_color);
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+#contact .forms .top input{
+    width: 310px;
+}
+
+
+
+
+
+
+
+
+/* =========== contact part end ============ */
 
