@@ -441,6 +441,9 @@
     #banner h2{
         font-size: 36px;
     }
+    b{
+        font-size: 36px;
+    }
     #banner img{
         margin-left: 20px;
     }

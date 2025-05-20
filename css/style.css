@@ -295,6 +295,7 @@ section{
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     transition: ease-in-out .3s;
     margin-top: 50px;
+    cursor: pointer;
 }
 #features .single_card:hover{
     background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
@@ -367,6 +368,7 @@ section{
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     margin-top: 50px;
+    cursor: pointer;
 }
 #portfolio .img{
     max-width: 355px;
@@ -482,6 +484,7 @@ section{
 }
 #resume .cards{
     margin-top: 40px;
+    cursor: pointer;
 }
 #resume .text p{
     font-size: 14px;
@@ -1331,6 +1334,7 @@ section{
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     margin-top: 50px;
+    cursor: pointer;
 }
 #blog .img{
     max-width: 355px;
@@ -1616,9 +1620,6 @@ section{
     background: linear-gradient(to right, #0000000f 100%, #00000004 100%);
     transform: translateY(-10px);
 }
-
-
-
 
 
 /* =========== contact part end ============ */
